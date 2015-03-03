@@ -5,7 +5,7 @@ __        ___                              ____    _    ____  _   _ ___
    \_/\_/  |_| |_|\__, |  \__,_|___/\___| |____/_/   \_\____/|_| |_|(_) 
                   |___/                                                
 
-# Ubiquitous: BASH is everywhere.                                       
-# Self-sufficent: Avoid dependencies.                                   
-# Extendable: Can call other commands for extra functionality.          
-# Well-known: Most Linux Administrators have some familiarity.          
+BASH is Ubiquitous: BASH is everywhere.                                       
+BASH is Self-sufficent: Avoid dependencies.                                   
+BASH is Extendable: Can call other commands for extra functionality.          
+BASH is Well-known: Most Linux Administrators have some familiarity.          
