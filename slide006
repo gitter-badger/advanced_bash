@@ -1,11 +1,15 @@
+<center>
  _ ____  _                            ___              _            _ 
 ( ) ___|| |_ _ __ ___  _ __   __ _   / _ \ _   _  ___ | |_ ___  ___( )
 |/\___ \| __| '__/ _ \| '_ \ / _` | | | | | | | |/ _ \| __/ _ \/ __|/ 
    ___) | |_| | | (_) | | | | (_| | | |_| | |_| | (_) | ||  __/\__ \  
   |____/ \__|_|  \___/|_| |_|\__, |  \__\_\\__,_|\___/ \__\___||___/  
-                             |___/                                   
+                             |___/                                    
+</center>
 
+<left>
 Single quotes ensure that the string they create contains the literal
-characters between the quotes. This is useful for phrases such as    
+characters between the quotes. This is useful for phrases such as
 'I have $100' because without strong quoting BASH would try to expand
-a variable '100'.                                                    
+a variable '100'.
+</left>

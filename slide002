@@ -1,10 +1,14 @@
-__        ___           _     _       ____    _    ____  _   _ ___
+<center>
+__        ___           _     _       ____    _    ____  _   _ ___ 
 \ \      / / |__   __ _| |_  (_)___  | __ )  / \  / ___|| | | |__ \
  \ \ /\ / /| `_ \ / _` | __| | / __| |  _ \ / _ \ \___ \| |_| | / /
   \ V  V / | | | | (_| | |_  | \__ \ | |_) / ___ \ ___) |  _  ||_| 
    \_/\_/  |_| |_|\__,_|\__| |_|___/ |____/_/   \_\____/|_| |_|(_) 
+</center>
 
-BASH='Bourne Again SHell'                                          
-BASH='A Shell'                                                     
-BASH='An Interpreter'                                              
-BASH='A Language'                                                  
+<left>
+BASH='Bourne Again SHell'
+BASH='A Shell'
+BASH='An Interpreter'
+BASH='A Language'
+</left>

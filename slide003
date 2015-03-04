@@ -1,11 +1,15 @@
+<center>
 __        ___                              ____    _    ____  _   _ ___ 
 \ \      / / |__  _   _   _   _ ___  ___  | __ )  / \  / ___|| | | |__ \
  \ \ /\ / /| '_ \| | | | | | | / __|/ _ \ |  _ \ / _ \ \___ \| |_| | / /
   \ V  V / | | | | |_| | | |_| \__ \  __/ | |_) / ___ \ ___) |  _  ||_| 
    \_/\_/  |_| |_|\__, |  \__,_|___/\___| |____/_/   \_\____/|_| |_|(_) 
-                  |___/                                                
+                  |___/                                                 
+</center>
 
-BASH is Ubiquitous: BASH is everywhere.                                       
-BASH is Self-sufficent: Avoid dependencies.                                   
-BASH is Extendable: Can call other commands for extra functionality.          
-BASH is Well-known: Most Linux Administrators have some familiarity.          
+<left>
+BASH is Ubiquitous: BASH is everywhere.
+BASH is Self-sufficent: Avoid dependencies.
+BASH is Extensible: Can call other commands for extra functionality.
+BASH is Well-known: Most Linux Administrators have some familiarity.
+</left>
