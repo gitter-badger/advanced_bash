@@ -1,0 +1,16 @@
+<center>
+    _                       _       _   _             
+   / \   ___ ___  ___   ___(_) __ _| |_(_) ___  _ __  
+  / _ \ / __/ __|/ _ \ / __| |/ _` | __| |/ _ \| '_ \ 
+ / ___ \\__ \__ \ (_) | (__| | (_| | |_| | (_) | | | |
+/_/   \_\___/___/\___/ \___|_|\__,_|\__|_|\___/|_| |_|
+</center>
+
+<left>
+Associative arrays are arrays which, instead of being
+strictly indexed, are made up of key=value pairs. 
+
+To declare an associative array: declare -A ARRAY
+To add a value: ARRAY[key]='value' or ARRAY=([key]='value')
+To get a value: "{ARRAY[key]}"
+</left>

@@ -11,13 +11,22 @@
 Using curly braces around parameters provides many benefits
 including:
 
+<pause>
 Appending letters to the content of variables: "${ANIMAL}s"
+<pause>
 Multi-digit positional parameters: "${23}"
-Calling from arrays by index: "${ARRAY[42]}"
+<pause>
+Calling from arrays by index or key: "${ARRAY[42]}" or "${ARRAY[Color]}"
+<pause>
 Finding the length of the contents: "${#PASSWD}"
+<pause>
 Converting the case of the contents: "${NAME^}" and "${FILE,,}"
+<pause>
 Removing substrings: "${FULLNAME## }" or "${FULLNAME%% }"
+<pause>
 Replacing substrings: "${WAR_DEGREE/Eurasia/Eastasia}"
+<pause>
 Extracting substrings by location: "${PHONE_NUM:1:3}"
+<pause>
 Setting default values: "${SHELL-/bin/bash}" or "${SHELL=/bin/bash}"
 </left>

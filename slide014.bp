@@ -1,0 +1,20 @@
+<center>
+    _                             
+   / \   _ __ _ __ __ _ _   _ ___ 
+  / _ \ | '__| '__/ _` | | | / __|
+ / ___ \| |  | | | (_| | |_| \__ \
+/_/   \_\_|  |_|  \__,_|\__, |___/
+                    |___/         
+</center>
+
+<left>
+Arrays are a useful way of storing data.
+A simple (or indexed) array can be declared with one of
+the following:
+
+declare -a ARRAY
+or 
+ARRAY=( 'value1' 'value2' 'value3' )
+or
+ARRAY[0]='value1'
+</left>
