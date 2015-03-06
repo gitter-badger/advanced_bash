@@ -1,0 +1,18 @@
+<center>
+ __ __   _____         _         __ __ 
+| _| _| |_   _|__  ___| |_ ___  |_ |_ |
+| || |    | |/ _ \/ __| __/ __|  | || |
+| || |    | |  __/\__ \ |_\__ \  | || |
+| || |    |_|\___||___/\__|___/  | || |
+|__|__|                         |__|__|
+</center>
+
+<left>
+However, in BASH tests should be performed by enclosing
+the test inside of double brackets. Besides being a 
+builtin, rather than a separate command, this expands the
+functionality of the test to include features such as:
+
+Use of &&, ||, <, and > operators.
+Regex using =~.
+</left>

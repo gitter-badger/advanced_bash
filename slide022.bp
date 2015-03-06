@@ -1,0 +1,19 @@
+<center>
+ __   _____         _         __ 
+| _| |_   _|__  ___| |_ ___  |_ |
+| |    | |/ _ \/ __| __/ __|  | |
+| |    | |  __/\__ \ |_\__ \  | |
+| |    |_|\___||___/\__|___/  | |
+|__|                         |__|
+</center>
+
+<left>
+Tests are functions that return a binary exit code
+for use in a conditional. Classic tests can be performed
+with either the test command or the [ command like this:
+
+$ test 1 = 1
+$ [ 1 = 1 ]
+
+Note: Yes, [ is a UNIX command. Try running 'whereis ['.
+</left>

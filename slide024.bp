@@ -1,0 +1,18 @@
+<center>
+ __ __   ____                        __ __ 
+| _| _| |  _ \ ___  __ _  _____  __ |_ |_ |
+| || |  | |_) / _ \/ _` |/ _ \ \/ /  | || |
+| || |  |  _ <  __/ (_| |  __/>  <   | || |
+| || |  |_| \_\___|\__, |\___/_/\_\  | || |
+|__|__|            |___/            |__|__|
+</center>
+
+<left>
+Traditionally regular expressions are performed
+using an external program such as grep, sed, or awk.
+However, one feature of the double bracket test in
+BASH is the ability to perform regex without an
+external dependency. This can be done like this:
+
+[[ "${PHONE}" =~ ^(\(?[0-9]{3}\)?[\ |-]?){1,2}[0-9]{4}$ ]]
+</left>

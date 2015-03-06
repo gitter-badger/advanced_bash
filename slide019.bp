@@ -1,0 +1,18 @@
+<center>
+  ____      _    ___        _       
+ / ___| ___| |_ / _ \ _ __ | |_ ___ 
+| |  _ / _ \ __| | | | '_ \| __/ __|
+| |_| |  __/ |_| |_| | |_) | |_\__ \
+ \____|\___|\__|\___/| .__/ \__|___/
+                     |_|            
+</center>
+
+<left>
+While it is possible to use positional parameters
+to handle command line options such as:
+
+script.sh -h
+
+BASH has a built in function called getopts which
+handles options regardless of order.
+</left>
