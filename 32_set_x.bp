@@ -7,8 +7,8 @@
 </center>
 
 <left>
-<bigreen> $ ./sumit.sh 8 9 2 10 543
-++ sum 8 9 2 10 543
+<bigreen> $ ./sumit.sh 8 9 10 543
+++ sum 8 9 10 543
 ++ NUMBERS=(${@})
 ++ declare -a NUMBERS
 ++ declare -i SUM=0
@@ -17,14 +17,11 @@
 ++ for NUMBER in '"${NUMBERS[@]}"'
 ++ SUM=17
 ++ for NUMBER in '"${NUMBERS[@]}"'
-++ SUM=19
+++ SUM=27
 ++ for NUMBER in '"${NUMBERS[@]}"'
-++ SUM=29
-++ for NUMBER in '"${NUMBERS[@]}"'
-++ SUM=572
-++ echo 572
-+ TOTAL=572
-+ echo 572
-572
-<clear>
+++ SUM=570
+++ echo 570
++ TOTAL=570
++ echo 570
+570<clear>
 </left>
