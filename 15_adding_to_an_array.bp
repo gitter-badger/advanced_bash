@@ -16,9 +16,9 @@
 It is possible to add more items to an indexed 
 array by using of the following:
 
-ARRAY[N]='valueN'
+<bigreen>ARRAY[N]='valueN'<clear>
 or
-ARRAY=([N]='valueN')
+<bigreen>ARRAY=([N]='valueN')<clear>
 or
-ARRAY+=('valueN')
+<bigreen>ARRAY+=('valueN')<clear>
 </left>

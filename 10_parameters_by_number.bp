@@ -18,7 +18,9 @@ arguments from the command line. For instance:
 </left>
 
 <center>
+<bigreen>
 $ script.sh filename1 filename2
+<clear>
 </center>
 
 <left>

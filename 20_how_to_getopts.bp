@@ -8,6 +8,7 @@
 </center>
 
 <left>
+<bigreen>
 while getopts "hf:u:p:" OPT; do
   case "${OPT}" in
     h)
@@ -24,4 +25,5 @@ while getopts "hf:u:p:" OPT; do
       exit 0;;
   esac
 done
+<clear>
 </left>

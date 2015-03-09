@@ -11,13 +11,13 @@
 By default parameters and arrays are globally scoped
 when declared in the simple format:
 
-VAR='value'
+<bigreen>VAR='value'<clear>
 
 This means that they can conflict with others which 
 exist outside of the program. Scope can be limited
 using either:
 
-local VAR='value'
+<bigreen>local VAR='value'<clear>
 or
-declare VAR='value'
+<bigreen>declare VAR='value'<clear>
 </left>

@@ -11,7 +11,9 @@
 While it is possible to use positional parameters
 to handle command line options such as:
 
+<bigreen>
 script.sh -h
+<clear>
 
 BASH has a built in function called getopts which
 handles options regardless of order.

@@ -11,9 +11,9 @@
 Tests are functions that return a binary exit code
 for use in a conditional. Classic tests can be performed
 with either the test command or the [ command like this:
-
+<bigreen>
 $ test 1 = 1
 $ [ 1 = 1 ]
-
+<clear>
 Note: Yes, [ is a UNIX command. Try running 'whereis ['.
 </left>
