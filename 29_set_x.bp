@@ -1,0 +1,26 @@
+<center>
+          _               
+ ___  ___| |_       __  __
+/ __|/ _ \ __|  ____\ \/ /
+\__ \  __/ |_  |_____>  < 
+|___/\___|\__|      /_/\_\
+</center>
+
+<left>
+<bigreen>#! /bin/bash
+
+sum() {
+  declare -a NUMBERS=(${@})
+  declare -i SUM=0
+  for NUMBER in "${NUMBERS[@]}"; do
+    SUM=$(( ${SUM} + ${NUMBER} ))
+  done
+  echo ${SUM}
+}
+
+TOTAL=$(sum "${@}")
+echo "${TOTAL}"
+
+
+<clear>
+</left>
