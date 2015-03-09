@@ -1,0 +1,25 @@
+<center>
+ _____                 _   _                  ____  
+|  ___|   _ _ __   ___| |_(_) ___  _ __  ___ / /\ \ 
+| |_ | | | | '_ \ / __| __| |/ _ \| '_ \/ __| |  | |
+|  _|| |_| | | | | (__| |_| | (_) | | | \__ \ |  | |
+|_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/ |  | |
+                                             \_\/_/ 
+</center>
+
+<left>
+Function calls can be generated dynamically by including
+unbraced variables like this:
+
+get_ucams_user() {
+  echo 'c1u'
+}
+
+get_xcams_user() {
+  echo 'cdcooper'
+}
+
+DIRECTORY="${1}"
+ACCOUNT=$($DIRECTORY_user)
+echo "${ACCOUNT}"
+</left>

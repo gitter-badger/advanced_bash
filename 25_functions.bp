@@ -1,0 +1,17 @@
+<center>
+ _____                 _   _                  ____  
+|  ___|   _ _ __   ___| |_(_) ___  _ __  ___ / /\ \ 
+| |_ | | | | '_ \ / __| __| |/ _ \| '_ \/ __| |  | |
+|  _|| |_| | | | | (__| |_| | (_) | | | \__ \ |  | |
+|_|   \__,_|_| |_|\___|\__|_|\___/|_| |_|___/ |  | |
+                                             \_\/_/ 
+</center>
+
+<left>
+Functions provide a method for abstracting code 
+so that it can be called using a single command which
+can take positional arguments and the output can be
+saved into a variable.
+
+Basically they are scripts inside of scripts.
+</left>
