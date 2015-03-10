@@ -7,6 +7,6 @@
 </center>
 
 <left>
-By default strings are broken by spaces. Quotes prevent this.
-Quotes can also control whether variables are expanded.
+Quotation marks prevent strings from being broken by spaces.
+They can also control whether variables are expanded.
 </left>

@@ -8,6 +8,6 @@
 
 <left>
 Weak quotes combine words separated by spaces into a single string,
-but also allows variables called using the dollar sign ($) symbol
+but also allow variables called using the dollar sign ($) symbol
 to be expanded. This is very useful for strings such as "Hello, ${NAME}".
 </left>
