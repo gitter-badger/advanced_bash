@@ -1,0 +1,25 @@
+<center>
+ _____                                    
+|_   _|__ _ __ _ __   __ _ _ __ _   _     
+  | |/ _ \ '__| '_ \ / _` | '__| | | |    
+  | |  __/ |  | | | | (_| | |  | |_| |    
+  |_|\___|_|  |_| |_|\__,_|_|   \__, |    
+  ___                       _   |___/     
+ / _ \ _ __   ___ _ __ __ _| |_ ___  _ __ 
+| | | | '_ \ / _ \ '__/ _` | __/ _ \| '__|
+| |_| | |_) |  __/ | | (_| | || (_) | |   
+ \___/| .__/ \___|_|  \__,_|\__\___/|_|   
+      |_|                                 
+</center>
+
+<left>
+The arithmetic expression (( )) can also be used as the
+ternary operator to perform evaluations and set variables.
+
+<bigreen>(( VAR > 13 ? VAR++ : VAR ))<clear>
+<bipurple> Expression ? True : False<clear>
+
+However, this can only evaluate integers and is generally
+considered less readable than the double bracket test as 
+part of an if/else statement.
+</left>

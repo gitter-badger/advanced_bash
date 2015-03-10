@@ -1,0 +1,28 @@
+<center>
+     ____                              _          
+    |  _ \ _   _ _ __   __ _ _ __ ___ (_) ___     
+    | | | | | | | '_ \ / _` | '_ ` _ \| |/ __|    
+    | |_| | |_| | | | | (_| | | | | | | | (__     
+    |____/ \__, |_| |_|\__,_|_| |_| |_|_|\___|    
+ _____     |___/  _             _   _             
+| ____|_   ____ _| |_   _  __ _| |_(_) ___  _ __  
+|  _| \ \ / / _` | | | | |/ _` | __| |/ _ \| '_ \ 
+| |___ \ V / (_| | | |_| | (_| | |_| | (_) | | | |
+|_____| \_/ \__,_|_|\__,_|\__,_|\__|_|\___/|_| |_|
+</center>
+
+<left>
+It is not nessary to know which function will be called,
+function calls can be represented by variables and evaluated
+dynamically:
+<bigreen>
+ram_used() {
+  RAM=($(free -m))
+  echo ${RAM[8]}
+)
+ram_free() {
+  RAM=($(free -m))
+  echo ${RAM[9]}
+)
+echo $(${1})<clear>
+</left>

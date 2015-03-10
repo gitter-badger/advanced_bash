@@ -8,18 +8,17 @@
 </center>
 
 <left>
-Function calls can be generated dynamically by including
-unbraced variables like this:
-
-<bigreen>get_ucams_user() {
-  echo 'c1u'
+<bigreen>
+sum() {
+  declare -a NUMBERS=(${@})
+  declare -i SUM=0
+  for NUMBER in "${NUMBERS[@]}"; do
+    SUM=$(( ${SUM} + ${NUMBER} ))
+  done
+  echo ${SUM}
 }
 
-get_xcams_user() {
-  echo 'cdcooper'
-}
-
-DIRECTORY="${1}"
-ACCOUNT=$(get_$DIRECTORY_user)
-echo "${ACCOUNT}"<clear>
+TOTAL=$(sum "${@}")
+echo "${TOTAL}"
+<clear>
 </left>

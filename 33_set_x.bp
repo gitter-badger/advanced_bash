@@ -8,6 +8,7 @@
 
 <left>
 <bigreen>#! /bin/bash
+set -x
 
 sum() {
   declare -a NUMBERS=(${@})

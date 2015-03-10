@@ -8,17 +8,10 @@
 </center>
 
 <left>
-<bigreen>
-sum() {
-  declare -a NUMBERS=(${@})
-  declare -i SUM=0
-  for NUMBER in "${NUMBERS[@]}"; do
-    SUM=$(( ${SUM} + ${NUMBER} ))
-  done
-  echo ${SUM}
-}
+Functions provide a method for abstracting code 
+so that it can be called using a single command which
+can take positional arguments and the output can be
+saved into a variable.
 
-TOTAL=$(sum "${@}")
-echo "${TOTAL}"
-<clear>
+Basically they are scripts inside of scripts.
 </left>

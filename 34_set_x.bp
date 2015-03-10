@@ -1,0 +1,27 @@
+<center>
+          _               
+ ___  ___| |_       __  __
+/ __|/ _ \ __|  ____\ \/ /
+\__ \  __/ |_  |_____>  < 
+|___/\___|\__|      /_/\_\
+</center>
+
+<left>
+<bigreen> $ ./sumit.sh 8 9 10 543
+++ sum 8 9 10 543
+++ NUMBERS=(${@})
+++ declare -a NUMBERS
+++ declare -i SUM=0
+++ for NUMBER in '"${NUMBERS[@]}"'
+++ SUM=8
+++ for NUMBER in '"${NUMBERS[@]}"'
+++ SUM=17
+++ for NUMBER in '"${NUMBERS[@]}"'
+++ SUM=27
+++ for NUMBER in '"${NUMBERS[@]}"'
+++ SUM=570
+++ echo 570
++ TOTAL=570
++ echo 570
+570<clear>
+</left>

@@ -15,14 +15,9 @@
 Parameters referenced by number are also known as
 as positional parameters. These are often used as
 arguments from the command line. For instance:
-</left>
-
-<center>
 <bigreen>
 $ script.sh filename1 filename2
 <clear>
-</center>
-
 <left>
 Inside the script those two filenames would be
 initially referenced as ${1} and ${2}.

@@ -10,6 +10,6 @@ __        ___                              ____    _    ____  _   _ ___
 <left>
 BASH is ubiquitous: BASH is everywhere.
 BASH is self-sufficent: avoids dependencies.
-BASH is extensible: Can call other commands for extra functionality.
+BASH is extensible: can call other commands for extra functionality.
 BASH is well-known: most Linux Administrators have some familiarity.
 </left>

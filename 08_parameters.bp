@@ -7,7 +7,7 @@
 </center>
 
 <left>
-Parameters are valued stored either by name, number or symbol.
+Parameters are values stored either by name, number or symbol.
 
 Name: ${VARIABLE}
 Number: ${1}
