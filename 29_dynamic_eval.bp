@@ -15,13 +15,13 @@
 Function calls can be generated dynamically by including
 unbraced variables like this:
 
-<bigreen>get_ucams_user() {
-  echo 'c1u'
+<bigreen>get_username() {
+  echo 'xzovy'
 }
-get_xcams_user() {
-  echo 'coopercd'
+get_fullename() {
+  echo 'Caleb Cooper'
 }
-DIRECTORY="${1}"
-ACCOUNT=$(get_$DIRECTORY_user)
-echo "${ACCOUNT}"<clear>
+TYPEname="${1}"
+OUTPUT=$(get_$TYPEname)
+echo "${OUTPUT}"<clear>
 </left>
