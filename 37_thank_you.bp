@@ -1,11 +1,6 @@
 
 
 
-
-
-
-
-
 <center>
  _____ _                 _     __   __          
 |_   _| |__   __ _ _ __ | | __ \ \ / /__  _   _ 
@@ -13,3 +8,11 @@
   | | | | | | (_| | | | |   <    | | (_) | |_| |
   |_| |_| |_|\__,_|_| |_|_|\_\   |_|\___/ \__,_|
 </center>
+
+<left>
+Special thanks to: 
+
+<bicyan>Zach Guzman<clear>: code contributions to bash_present.sh.
+<bigreen>Richard Frostell<clear>, <bired>Stephen Milton<clear>, and <bicyan>Zach Guzman<clear>: proof reading.
+
+
