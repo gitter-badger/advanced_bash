@@ -9,4 +9,13 @@
 <left>
 Quotation marks prevent strings from being broken by spaces.
 They can also control whether variables are expanded.
+
+Weak quotes (representated by double qoutes) allow variables
+called using the dollar sign ($) symbol to be expanded.
+This is very useful for strings such as "Hello, ${NAME}".
+
+Strong quotes (represented by single quotes) ensure that the
+string they create contains the literal characters between the
+quotes. This is useful for phrases such as 'I have $100' because
+without strong quoting BASH would try to expand a variable '100'.
 </left>
