@@ -11,7 +11,7 @@
 Simple arithmatic in BASH done by enclosing the
 equation inside of double parentheses like this:
 
-<bigreen>local TOTAL=((${NUM} + 4))<clear>
+<green>local TOTAL=$((NUM + 4))<clear>
 
 Note: BASH can only do integer math. To do floating
 point math, external programs such as bc are required.

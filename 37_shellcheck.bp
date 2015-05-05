@@ -7,8 +7,7 @@
 </center>
 
 <left>
-Shellcheck is a BASH linter which can be accessed either
-at http://www.shellcheck.net/ or with the shellcheck
-CLI tool. 
+Shellcheck is a BASH linter which can be accessed either at <blue>http://www.shellcheck.net/<clear> 
+or with the shellcheck CLI tool. 
 </left>
 

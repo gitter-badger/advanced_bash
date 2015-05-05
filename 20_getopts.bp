@@ -11,7 +11,7 @@
 While it is possible to use positional parameters
 to handle command line options such as:
 
-<bigreen>
+<green>
 script.sh -h
 <clear>
 

@@ -8,7 +8,7 @@
 </center>
 
 <left>
-<bigreen>
+<green>
 sum() {
   declare -a NUMBERS=(${@})
   declare -i SUM=0
@@ -22,3 +22,4 @@ TOTAL=$(sum "${@}")
 echo "${TOTAL}"
 <clear>
 </left>
+

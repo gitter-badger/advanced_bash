@@ -12,16 +12,16 @@
 </center>
 
 <left>
-Function calls can be generated dynamically by including
-unbraced variables like this:
-
-<bigreen>get_username() {
-  echo 'xzovy'
-}
-get_fullename() {
-  echo 'Caleb Cooper'
-}
-TYPEname="${1}"
-OUTPUT=$(get_$TYPEname)
-echo "${OUTPUT}"<clear>
+It is not nessary to know which function will be called, function 
+calls can be represented by variables and evaluated dynamically:
+<green>
+ram_used() {
+  RAM=($(free -m))
+  echo ${RAM[8]}
+)
+ram_free() {
+  RAM=($(free -m))
+  echo ${RAM[9]}
+)
+echo $(${1})<clear>
 </left>

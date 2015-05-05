@@ -1,0 +1,22 @@
+<center>
+  ____                       _____     _      _        
+ / ___|_ __ __ _ _____   _  |_   _| __(_) ___| | _____ 
+| |   | '__/ _` |_  / | | |   | || '__| |/ __| |/ / __|
+| |___| | | (_| |/ /| |_| |   | || |  | | (__|   <\__ \
+ \____|_|  \__,_/___|\__, |   |_||_|  |_|\___|_|\_\___/
+                     |___/                             
+</center>
+
+<left>
+Writing executables with echo[1]:
+<green>echo -ne $'\\x7f\\x45\\x4c\\x46\\x02\\x01\\x01'<clear>
+
+Sending packets[2]:
+<green>exec 3<>/dev/tcp/irc.lopsa.org/6667
+echo "NICK calebcooper" >&3
+while IFS= read -r line; do echo $line; done <&3<clear>
+
+
+1. <blue>http://eusebeia.dyndns.org/bashcp<clear>
+2. <blue>http://www.hacktux.com/bash/socket<clear>
+</left>

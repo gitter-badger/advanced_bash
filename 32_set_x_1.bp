@@ -10,9 +10,9 @@
 Bash has a built in debug mode which can be called
 at run time using:
 
-<bigreen>bash -x script.sh<clear>
+<green>bash -x script.sh<clear>
 
 or by setting the -x flag inside of the script using:
 
-<bigreen>set -x<clear>
+<green>set -x<clear>
 <left>

@@ -7,7 +7,7 @@
 </center>
 
 <left>
-<bigreen>$ ./sumit.sh 8 9 10 543
+<green>$ ./sumit.sh 8 9 10 543
 570
 <clear>
 </left>

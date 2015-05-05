@@ -8,15 +8,15 @@
 
 <left>
 Bash Hackers Wiki: 
-  http://wiki.bash-hackers.org/doku.php
+  <blue>http://wiki.bash-hackers.org/doku.php<clear>
 
 The Linux Docmentation Project's 
 Advanced Bash-Scripting Guide:
-  http://tldp.org/LDP/abs/html/
+  <blue>http://tldp.org/LDP/abs/html/<clear>
 
 r/UnixProTips:
-  https://www.reddit.com/r/UnixProTips
+  <blue>https://www.reddit.com/r/UnixProTips<clear>
 
 commandlinefu.com:
-http://www.commandlinefu.com/commands/browse
+  <blue>http://www.commandlinefu.com/commands/browse<clear>
 </left>

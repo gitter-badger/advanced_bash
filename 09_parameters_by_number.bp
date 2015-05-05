@@ -15,7 +15,7 @@
 Parameters referenced by number are also known as
 as positional parameters. These are often used as
 arguments from the command line. For instance:
-<bigreen>
+<green>
 $ script.sh filename1 filename2
 <clear>
 <left>

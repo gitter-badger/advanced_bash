@@ -7,8 +7,8 @@
 </center>
 
 <left>
-<bigreen>#! /bin/bash
-set -x
+<green>#! /bin/bash
+<biyellow>set -x<green>
 
 sum() {
   declare -a NUMBERS=(${@})
@@ -25,3 +25,4 @@ echo "${TOTAL}"
 
 <clear>
 </left>
+
