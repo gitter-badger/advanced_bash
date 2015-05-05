@@ -1,0 +1,27 @@
+<center>
+ __  __       _  __                  _   _             _             
+|  \/  | __ _| |/ _|_   _ _ __   ___| |_(_) ___  _ __ (_)_ __   __ _ 
+| |\/| |/ _` | | |_| | | | '_ \ / __| __| |/ _ \| '_ \| | '_ \ / _` |
+| |  | | (_| | |  _| |_| | | | | (__| |_| | (_) | | | | | | | | (_| |
+|_|  |_|\__,_|_|_|  \__,_|_| |_|\___|\__|_|\___/|_| |_|_|_| |_|\__, |
+                                                               |___/ 
+</center>
+
+<left>
+Script:
+<green>#! /bin/bash
+
+add() <biyellow>{<green>
+  TOTAL=0
+  for INTEGER in ${@}; do
+    TOTAL=$((TOTAL + INTEGER))
+  done
+  echo $TOTAL
+<biyellow>}<green>
+
+add ${@}<clear>
+
+Output:
+<green>script.sh 3 4 7 19 9
+<biyellow>42<clear>
+</left>

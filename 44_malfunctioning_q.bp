@@ -1,0 +1,28 @@
+<center>
+ __  __       _  __                  _   _             _             
+|  \/  | __ _| |/ _|_   _ _ __   ___| |_(_) ___  _ __ (_)_ __   __ _ 
+| |\/| |/ _` | | |_| | | | '_ \ / __| __| |/ _ \| '_ \| | '_ \ / _` |
+| |  | | (_| | |  _| |_| | | | | (__| |_| | (_) | | | | | | | | (_| |
+|_|  |_|\__,_|_|_|  \__,_|_| |_|\___|\__|_|\___/|_| |_|_|_| |_|\__, |
+                                                               |___/ 
+</center>
+
+<left>
+Script:
+<green>#! /bin/bash
+
+add()
+  TOTAL=0
+  for INTEGER in ${@}; do
+    TOTAL=$((TOTAL + INTEGER))
+  done
+  echo $TOTAL
+
+add ${@}<clear>
+
+Output:
+<green>script.sh 3 4 7 19 9
+script.sh: line 4: syntax error near unexpected token `TOTAL=0'
+script.sh: line 4: `  TOTAL=0'<clear>
+</left>
+
