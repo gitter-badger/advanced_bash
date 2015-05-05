@@ -1,0 +1,26 @@
+<center>
+   _______                            _           __   
+  / / ____|_  ___ __   __ _ _ __  ___(_) ___  _ __\ \  
+ | ||  _| \ \/ / '_ \ / _` | '_ \/ __| |/ _ \| '_ \| | 
+< < | |___ >  <| |_) | (_| | | | \__ \ | (_) | | | |> >
+ | ||_____/_/\_\ .__/ \__,_|_| |_|___/_|\___/|_| |_| | 
+  \_\          |_|                                /_/  
+</center>
+
+<left>
+Brace Expansion is a feature which allows one to generate strings of consecutive
+values. For instance:
+<bigreen>
+{1,2,4,5,9,13} <clear>becomes:<bigreen> 1 2 4 5 9 13
+{1..20} <clear>becomes:<bigreen> 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
+{01..20} <clear>becomes:<bigreen> 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20
+{01..20..3} <clear>becomes:<bigreen> 01 04 07 10 13 16 19
+{a..z} <clear>becomes:<bigreen> a b c d e f g h i j k l m n o p q r s t u v w x y z
+{{0..9},{A..F}} <clear>becomes:<bigreen> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+{0..9}{A..F} <clear>becomes:<bigreen> 0A 0B 0C 0D 0E 0F 1A 1B 1C 1D 1E 1F 2A 2B 2C 
+                      2D 2E 2F 3A 3B 3C 3D 3E 3F 4A 4B 4C 4D 4E 4F 
+                      5A 5B 5C 5D 5E 5F 6A 6B 6C 6D 6E 6F 7A 7B 7C
+                      7D 7E 7F 8A 8B 8C 8D 8E 8F 9A 9B 9C 9D 9E 9F
+<clear>
+</left>
+
