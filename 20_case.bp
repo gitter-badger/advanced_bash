@@ -6,10 +6,8 @@
  \____\__,_|___/\___|
                      
 </center>
-
 case is a conditional which acts a simplified alternative
 to a long if, elif, else statement. 
-
 <bigreen>
 case "${DISTO}" in
   'ubuntu'|'debian')
