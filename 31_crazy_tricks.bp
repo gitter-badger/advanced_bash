@@ -16,6 +16,9 @@ Sending packets[2]:
 echo "NICK calebcooper" >&3
 while IFS= read -r line; do echo $line; done <&3<clear>
 
+Getting terminal size:<green>
+read -p $'\\e[18t' -s -r -d t size; echo ${size#*;}
+<clear>
 
 1. <blue>http://eusebeia.dyndns.org/bashcp<clear>
 2. <blue>http://www.hacktux.com/bash/socket<clear>
