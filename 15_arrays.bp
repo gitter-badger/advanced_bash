@@ -12,9 +12,9 @@ Arrays are a useful way of storing data.
 A simple (or indexed) array can be declared with one of
 the following:
 
-<green>declare -a ARRAY<clear>
+<bigreen>declare -a ARRAY<clear>
 or
-<green>ARRAY=( 'value1' 'value2' 'value3' )<clear>
+<bigreen>ARRAY=( 'value1' 'value2' 'value3' )<clear>
 or
-<green>ARRAY[0]='value1'<clear>
+<bigreen>ARRAY[0]='value1'<clear>
 </left>

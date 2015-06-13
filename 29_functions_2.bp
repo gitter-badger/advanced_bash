@@ -8,7 +8,7 @@
 </center>
 
 <left>
-<green>
+<bigreen>
 sum() {
   declare -a NUMBERS=(${@})
   declare -i SUM=0

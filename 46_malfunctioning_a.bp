@@ -8,19 +8,19 @@
 
 <left>
 Script:
-<green>#! /bin/bash
+<bigreen>#! /bin/bash
 
-add() <biyellow>{<green>
+add() <biyellow>{<bigreen>
   TOTAL=0
   for INTEGER in ${@}; do
     TOTAL=$((TOTAL + INTEGER))
   done
   echo $TOTAL
-<biyellow>}<green>
+<biyellow>}<bigreen>
 
 add ${@}<clear>
 
 Output:
-<green>script.sh 3 4 7 19 9
+<bigreen>script.sh 3 4 7 19 9
 <biyellow>42<clear>
 </left>

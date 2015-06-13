@@ -16,7 +16,7 @@
 The arithmetic expression (( )) can also be used as the
 ternary operator to perform evaluations and set variables.
 
-<green>(( VAR > 13 ? VAR++ : VAR ))<clear>
+<bigreen>(( VAR > 13 ? VAR++ : VAR ))<clear>
 <bipurple> Expression ? True : False<clear>
 
 However, this can only evaluate integers and is generally

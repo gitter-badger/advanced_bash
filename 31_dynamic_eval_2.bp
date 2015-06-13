@@ -15,7 +15,7 @@
 Function calls can be generated dynamically by including
 unbraced variables like this:
 
-<green>get_username() {
+<bigreen>get_username() {
   echo 'xzovy'
 }
 get_fullname() {

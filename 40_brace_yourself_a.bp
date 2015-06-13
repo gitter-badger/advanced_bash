@@ -9,14 +9,14 @@
 
 <left>
 Script:
-<green>#! /bin/bash
+<bigreen>#! /bin/bash
 
 declare -a DISTROS=(Slackware Arch Debian Ubuntu)
 
-echo "We offer ${#DISTROS<biyellow>[@]<green>} distributions:"
+echo "We offer ${#DISTROS<biyellow>[@]<bigreen>} distributions:"
 echo "${DISTROS[@]}."
 <clear>
-Output:<green>
-We offer <biyellow>4<green> different distributions.
+Output:<bigreen>
+We offer <biyellow>4<bigreen> different distributions.
 Slackware Arch Debian Ubuntu.<clear>
 </left>

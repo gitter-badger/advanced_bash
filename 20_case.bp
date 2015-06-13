@@ -1,0 +1,24 @@
+<center>
+  ____               
+ / ___|__ _ ___  ___ 
+| |   / _` / __|/ _ \
+| |__| (_| \__ \  __/
+ \____\__,_|___/\___|
+                     
+</center>
+
+case is a conditional which acts a simplified alternative
+to a long if, elif, else statement. 
+
+<bigreen>
+case "${DISTO}" in
+  'ubuntu'|'debian')
+    apt-get install software;;
+  'redhat'|'centos'|'fedora')
+    yum install software;;
+  'archlinux')
+    pacman -S software;;
+  *)
+    echo "That is not a supported distribution.";;
+esac
+<clear>

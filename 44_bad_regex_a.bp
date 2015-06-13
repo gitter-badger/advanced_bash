@@ -9,15 +9,15 @@
 
 <left>
 Script:
-<green>#! /bin/bash
+<bigreen>#! /bin/bash
 
-if [[ $1 =~ jpg ]]; then
+if [[ $1 =~ jpg<biyellow>$<bigreen> ]]; then
   echo "$1 is a JPG."
 else
   echo "$1 is NOT a JPG."
 fi
 <clear>
 Output:
-<green>script.sh virus.jpg.exe
-virus.jpg.exe is a JPG.<clear>
+<bigreen>script.sh virus.jpg.exe
+virus.jpg.exe is <biyellow>NOT<bigreen> a JPG.<clear>
 </left>

@@ -9,14 +9,14 @@
 
 <left>
 Script:
-<green>#! /bin/sh
+<bigreen>#! /bin/<biyellow>ba<bigreen>sh
 
 if [[ $1 =~ .* ]]; then
   echo $1
 fi<clear>
 
 Output:
-<green>
+<bigreen>
 script.sh Test
-script.sh: 3: script.sh: [[: not found<clear>
+<biyellow>Test<clear>
 </left>

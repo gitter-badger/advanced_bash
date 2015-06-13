@@ -14,8 +14,8 @@
 <left>
 Once data is stored in an indexed array
 it can be retrieved using its index with
-the following command: <green>"${ARRAY[N]}"<clear>
+the following command: <bigreen>"${ARRAY[N]}"<clear>
 
 To get all the values in an array use: 
-<green>"${ARRAY[*]}"<clear> or <green>"${ARRAY[@]}"<clear>
+<bigreen>"${ARRAY[*]}"<clear> or <bigreen>"${ARRAY[@]}"<clear>
 </left>

@@ -7,7 +7,7 @@
 </center>
 
 <left>
-<green> $ ./sumit.sh 8 9 10 543
+<bigreen> $ ./sumit.sh 8 9 10 543
 <biyellow>++ sum 8 9 10 543
 ++ NUMBERS=(${@})
 ++ declare -a NUMBERS
@@ -22,7 +22,7 @@
 ++ SUM=570
 ++ echo 570
 + TOTAL=570
-+ echo 570<green>
++ echo 570<bigreen>
 570<clear>
 </left>
 

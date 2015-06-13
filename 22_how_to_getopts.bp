@@ -7,7 +7,7 @@
                                                       |_|            
 </center>
 <left>
-<green>
+<bigreen>
 while getopts "hf:u:p:" OPT; do
   case "${OPT}" in
     h)

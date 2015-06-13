@@ -15,7 +15,7 @@
 It is not nessary to know which function will be called, 
 function calls can be represented by variables and 
 evaluated dynamically:
-<green>
+<bigreen>
 ram_used() {
   RAM=($(free -m))
   echo ${RAM[8]}

@@ -10,8 +10,8 @@
 <left>
 It is also possible to prepend or append strings to a brace expansion
 for added functionality:
-<green>
-S{1..4}E{01..26} <clear>becomes:<green> S1E01 S1E02 S1E03 S1E04 S1E05 S1E06
+<bigreen>
+S{1..4}E{01..26} <clear>becomes:<bigreen> S1E01 S1E02 S1E03 S1E04 S1E05 S1E06
                           S1E07 S1E08 S1E09 S1E10 S1E11 S1E12
                           S2E01 S2E02 S2E03 S2E04 S2E05 S2E06 
                           S2E07 S2E08 S2E09 S2E10 S2E11 S2E12 
@@ -21,8 +21,8 @@ S{1..4}E{01..26} <clear>becomes:<green> S1E01 S1E02 S1E03 S1E04 S1E05 S1E06
                           S4E07 S4E08 S4E09 S4E10 S4E11 S4E12
 
 <clear>Note: This can also be used in commands like below:
-<green>
-cp file.{txt,sh} <clear>becomes:<green> cp file.txt file.sh
+<bigreen>
+cp file.{txt,sh} <clear>becomes:<bigreen> cp file.txt file.sh
 <clear>
 </left>
 

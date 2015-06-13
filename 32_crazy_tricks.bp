@@ -9,14 +9,14 @@
 
 <left>
 Writing executables with echo[1]:
-<green>echo -ne $'\\x7f\\x45\\x4c\\x46\\x02\\x01\\x01'<clear>
+<bigreen>echo -ne $'\\x7f\\x45\\x4c\\x46\\x02\\x01\\x01'<clear>
 
 Sending packets[2]:
-<green>exec 3<>/dev/tcp/irc.lopsa.org/6667
+<bigreen>exec 3<>/dev/tcp/irc.lopsa.org/6667
 echo "NICK calebcooper" >&3
 while IFS= read -r line; do echo $line; done <&3<clear>
 
-Getting terminal size:<green>
+Getting terminal size:<bigreen>
 read -p $'\\e[18t' -s -r -d t size; echo ${size#*;}
 <clear>
 

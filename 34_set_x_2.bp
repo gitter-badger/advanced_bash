@@ -7,7 +7,7 @@
 </center>
 
 <left>
-<green>#! /bin/bash
+<bigreen>#! /bin/bash
 
 sum() {
   declare -a NUMBERS=(${@})

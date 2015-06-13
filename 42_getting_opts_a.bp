@@ -9,9 +9,9 @@
 
 <left>
 Script:
-<green>#! /bin/bash
+<bigreen>#! /bin/bash
 
-while getopts "f" OPT; do
+while getopts "f<biyellow>:<bigreen>" OPT; do
   case "${OPT}" in
     f)
       FILENAME="${OPTARG}";;
@@ -21,6 +21,6 @@ done
 echo "${FILENAME}"<clear>
 
 Output:
-<green>script.sh -f text.txt
-<clear>
+<bigreen>script.sh -f text.txt
+<biyellow>text.txt<clear>
 </left>
