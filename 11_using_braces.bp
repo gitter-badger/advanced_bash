@@ -13,11 +13,16 @@ including:
 
 Appending letters to the content of variables: <green>"${ANIMAL}s"<clear>
 Multi-digit positional parameters: <green>"${23}"<clear>
-Calling from arrays by index or key: <green>"${ARRAY[42]}"<clear> or <green>"${ARRAY[Color]}"<clear>
-Finding the length of the contents: <green>"${#PASSWD}"<clear> or <green>"${#DWARVES[@]}"<clear>
-Converting the case of the contents: <green>"${NAME^}"<clear> and <green>"${FILE,,}"<clear>
-Removing substrings: <green>"${FULLNAME## }"<clear> or <green>"${FULLNAME%% }"<clear>
+Calling from arrays by index or key: <green>"${ARRAY[42]}"<clear> 
+                                     <green>"${ARRAY[Color]}"<clear>
+Finding the length of the contents: <green>"${#PASSWD}"<clear> 
+                                    <green>"${#DWARVES[@]}"<clear>
+Converting the case of the contents: <green>"${NAME^}"<clear>
+                                     <green>"${FILE,,}"<clear>
+Removing substrings: <green>"${FULLNAME## }"<clear> 
+                     <green>"${FULLNAME%% }"<clear>
 Replacing substrings: <green>"${WAR_DECREE/Eurasia/Eastasia}"<clear>
 Extracting substrings by location: <green>"${PHONE_NUM:1:3}"<clear>
-Setting default values: <green>"${SHELL:-/bin/bash}"<clear> or <green>"${SHELL:=/bin/bash}"<clear>
+Setting default values: <green>"${SHELL:-/bin/bash}"<clear>
+                        <green>"${SHELL:=/bin/bash}"<clear>
 </left>

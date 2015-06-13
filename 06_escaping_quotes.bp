@@ -12,7 +12,8 @@
 </center>
 
 <left>
-Sometimes it is useful to add literal quotes to a phrase constructed using
-either weak or strong quoting. To this one must escape the inner quotes like
-this: "It's known as \"Escaping\"."
+Sometimes it is useful to add literal quotes to a phrase 
+constructed using either weak or strong quoting. To this 
+one must escape the inner quotes like this: 
+"It's known as \"Escaping\"."
 </left>

@@ -15,7 +15,8 @@ BASH is the ability to perform regex without an
 external dependency. This can be done like this:
 
 <green>PHONE='865-241-6765'
-if [[ "${PHONE}" =~ ^(\(?[0-9]{3}\)?[\ |-]?){1,2}[0-9]{4}$ ]]; then
+REGEX='^(\(?[0-9]{3}\)?[\ |-]?){1,2}[0-9]{4}$'
+if [[ "${PHONE}" =~ ${REGEX} ]]; then
   echo "${PHONE} is valid."
 else
   echo "${PHONE} is not valid."

@@ -8,12 +8,12 @@
 </center>
 
 <left>
-So what about POSIX? POSIX is a set of standards for ensuring compatiably
-between operating systems. A POSIX shell is one which complies with 
-IEEE Std 1003.2-1992. 
+So what about POSIX? POSIX is a set of standards for ensuring 
+compatiably between operating systems. A POSIX shell is one which 
+complies with IEEE Std 1003.2-1992. 
 
-However, BASH is not completely compliant. In fact, most of what is in
-this presention is not compliant because it is extra funtionality which
-many POSIX shells do not include. So, kids, do not try this in your
-/bin/sh.
+However, BASH is not completely compliant. In fact, most of what 
+is in this presention is not compliant because it is extra 
+funtionality whichmany POSIX shells do not include. So, kids, 
+do not try this in your /bin/sh.
 </left>

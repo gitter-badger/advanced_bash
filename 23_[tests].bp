@@ -15,5 +15,6 @@ with either the test command or the [ command like this:
 $ test 1 = 1
 $ [ 1 = 1 ]
 <clear>
-Note: Yes, <green>[<clear> is a UNIX command. Try running '<green>whereis [<clear>'.
+Note: Yes, <green>[<clear> is a UNIX command. 
+Try running '<green>whereis [<clear>'.
 </left>

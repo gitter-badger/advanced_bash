@@ -11,6 +11,7 @@ Associative arrays are arrays which, instead of being
 strictly indexed, are made up of key=value pairs. 
 
 To declare an associative array: <green>declare -A ARRAY<clear>
-To add a value: <green>ARRAY[key]='value'<clear> or <green>ARRAY=([key]='value')<clear>
+To add a value: <green>ARRAY[key]='value'<clear> 
+                <green>ARRAY=([key]='value')<clear>
 To get a value: <green>"{ARRAY[key]}"<clear>
 </left>

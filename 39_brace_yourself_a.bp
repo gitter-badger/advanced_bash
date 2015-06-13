@@ -13,7 +13,7 @@ Script:
 
 declare -a DISTROS=(Slackware Arch Debian Ubuntu)
 
-echo "We offer ${#DISTROS<biyellow>[@]<green>} different distributions:"
+echo "We offer ${#DISTROS<biyellow>[@]<green>} distributions:"
 echo "${DISTROS[@]}."
 <clear>
 Output:<green>
